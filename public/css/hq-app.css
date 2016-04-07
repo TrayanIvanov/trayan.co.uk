@@ -1,0 +1,26 @@
+.inl-mrg {
+    margin-right: 3px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.project-form .project-thumb {
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.bulk-container {
+    padding: 20px 0px;
+}
+
+.bulk-container button {
+     position: absolute;
+     left: 20px;
+     top: 5px;
+}
+
+.bulk-container img {
+    margin: 0px 10px 20px 0px;
+}
