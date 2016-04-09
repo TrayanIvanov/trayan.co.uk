@@ -1,0 +1,161 @@
+/*=========================================*/
+/*=== GENERAL ===*/
+/*=========================================*/
+body {
+    font-size: 14px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.fa {
+    color: #00aaac;
+}
+.btn-info {
+    background-color: #00aaac !important;
+}
+.btn-info:hover {
+    background-color: #5bc0de !important;
+}
+
+/*=========================================*/
+/*=== HEADER NAV ===*/
+/*=========================================*/
+nav {
+    display: block;
+    height: 150px;
+    background-color: #444;
+    font-weight: bold;
+    font-size: 14px;
+}
+nav img {
+    width: 250px;
+}
+nav ul {
+    list-style: none;
+    display: block;
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+nav a, nav a:link, nav a:active, nav a:visited {
+    padding: 0px 8px;
+    color: #fefefe;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #00aaac;
+}
+/*=========================================*/
+@media (min-width: 768px) {
+    nav {
+        height: 120px;
+        font-size: 18px;
+    }
+    nav img {
+        width: 300px;
+    }
+    nav ul {
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    nav ul li {
+        padding: 20px 0px;
+        margin-right: 0px;
+    }
+    nav a, nav a:link, nav a:active, nav a:visited {
+        padding: 25px 20px;
+    }
+}
+/*=========================================*/
+@media (min-width: 992px) {
+    nav {
+        font-size: 20px;
+    }
+    nav ul {
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+    nav a, nav a:link, nav a:active, nav a:visited {
+        padding: 25px 35px;
+    }
+}
+
+/*=========================================*/
+/*=== INDEX HEADER ===*/
+/*=========================================*/
+.header-index {
+    background-color: #ccccb3;
+    margin: 0 0 50px 0 !important;
+    padding: 20px 0;
+    font-family: 'Courier New';
+}
+
+/*=========================================*/
+/*=== INDEX PROJECTS ===*/
+/*=========================================*/
+#projects-index .btn {
+    margin-top: 20px;
+}
+
+/*=========================================*/
+/*=== ABOUT ===*/
+/*=========================================*/
+#about {
+    margin-top: 40px;
+}
+#about p {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/*=========================================*/
+/*=== ALL PROJECTS ===*/
+/*=========================================*/
+#all-projects {
+    margin-top: 40px;
+}
+#all-projects img {
+    margin: 20px 0;
+}
+
+/*=========================================*/
+/*=== SELECTED PROJECT ===*/
+/*=========================================*/
+#selected-project {
+    margin-top: 40px;
+}
+.info-top {
+    padding-top: 30px;
+}
+.section-title {
+    font-weight: bold;
+    color: #00aaac;
+}
+
+/*=========================================*/
+/*=== CONTACTS ===*/
+/*=========================================*/
+#contacts {
+    margin-top: 40px;
+}
+#contacts .form-control {
+    padding: 15px 10px;
+}
+#contacts .fa {
+    margin-right: 25px;
+    width: 20px;
+}
+
+/*=========================================*/
+/*=== FOOTER ===*/
+/*=========================================*/
+.footer {
+    margin-top: 150px;
+    height: 60px;
+    background-color: #444;
+    color: #fefefe;
+}
+
+.footer p {
+    margin-top: 20px;
+}
