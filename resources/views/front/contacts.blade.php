@@ -71,5 +71,6 @@ Contact information - Trayan Ivanov - web developer - personal website with port
             <a href="skype:ivanov.trayan"><i class="fa fa-3x fa-skype" target="_blank"></i></a>
         </div>
     </div>
+    <div id="bot-space">&nbsp;</div>
 </div>
 @endsection

@@ -14,6 +14,14 @@ body {
 .btn-info:hover {
     background-color: #5bc0de !important;
 }
+#bot-space {
+    height: 0px;
+}
+@media (min-width: 992px) {
+    #bot-space {
+        height: 140px;
+    }
+}
 
 /*=========================================*/
 /*=== HEADER NAV ===*/
@@ -84,7 +92,7 @@ nav a:hover{
 /*=== INDEX HEADER ===*/
 /*=========================================*/
 .header-index {
-    background-color: #ccccb3;
+    background-color: #f2f2f2;
     margin: 0 0 50px 0 !important;
     padding: 20px 0;
     font-family: 'Courier New';
@@ -138,8 +146,10 @@ nav a:hover{
 #contacts {
     margin-top: 40px;
 }
-#contacts .form-control {
-    padding: 15px 10px;
+@media (min-width: 992px) {
+    #contacts {
+        margin-top: 80px;
+    }
 }
 #contacts .fa {
     margin-right: 25px;
