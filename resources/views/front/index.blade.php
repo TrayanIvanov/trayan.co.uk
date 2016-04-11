@@ -54,5 +54,6 @@
             </div>
         </div>
     </div>
+    <div id="bot-space">&nbsp;</div>
 </div>
 @endsection
