@@ -9,6 +9,7 @@
     <meta name="Keywords" content="@yield('head.meta.keywords', 'trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript')" />
     <meta name="Description" content="@yield('head.meta.description', 'Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.')" />
 
+    <meta property="fb:app_id" content="158018051261161" />
     <meta property="og:title" content="@yield('head.og.title')" />
     <meta property="og:description" content="@yield('head.og.description')" />
     <meta property="og:image" content="@yield('head.og.image')" />
