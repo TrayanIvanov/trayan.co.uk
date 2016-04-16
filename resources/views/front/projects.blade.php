@@ -14,7 +14,7 @@ List with all of the projects which I developed or participated - Project made b
 
 @section('head.og.title'){{ 'Trayan Ivanov - web developer - Projects' }}@endsection
 @section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
-@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.image'){{ url('/images/logo_dark.jpg') }}@endsection
 @section('head.og.url'){{ url('/projects') }}@endsection
 
 @section('content')

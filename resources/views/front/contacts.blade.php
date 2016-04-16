@@ -14,7 +14,7 @@ Contact information - Trayan Ivanov - web developer - personal website with port
 
 @section('head.og.title'){{ 'Trayan Ivanov - web developer - Contacts' }}@endsection
 @section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
-@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.image'){{ url('/images/logo_dark.jpg') }}@endsection
 @section('head.og.url'){{ url('/contacts') }}@endsection
 
 @section('scripts.header')

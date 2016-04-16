@@ -14,7 +14,7 @@ About me page - Trayan Ivanov - web developer - personal website with portfolio 
 
 @section('head.og.title'){{ 'Trayan Ivanov - web developer - About' }}@endsection
 @section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
-@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.image'){{ url('/images/logo_dark.jpg') }}@endsection
 @section('head.og.url'){{ url('/about') }}@endsection
 
 @section('content')

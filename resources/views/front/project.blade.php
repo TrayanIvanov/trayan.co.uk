@@ -14,7 +14,7 @@ trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,
 
 @section('head.og.title'){{ $project->name . ' - Trayan Ivanov - web developer' }}@endsection
 @section('head.og.description'){{ $project->description }}@endsection
-@section('head.og.image'){{ url($project->logo) }}@endsection
+@section('head.og.image'){{ url($project->photos[0]->path) }}@endsection
 @section('head.og.url'){{ url("/project/$project->id") }}@endsection
 
 @section('scripts.header')
