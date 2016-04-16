@@ -12,6 +12,11 @@ trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,
 {{ $project->name }} - Project made by me - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.
 @endsection
 
+@section('head.og.title'){{ $project->name . ' - Trayan Ivanov - web developer' }}@endsection
+@section('head.og.description'){{ $project->description }}@endsection
+@section('head.og.image'){{ url($project->logo) }}@endsection
+@section('head.og.url'){{ url("/project/$project->id") }}@endsection
+
 @section('scripts.header')
     <link rel="stylesheet" href="/css/libs/blueberry.css">
 @endsection

@@ -12,6 +12,11 @@ trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,
 About me page - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.
 @endsection
 
+@section('head.og.title'){{ 'Trayan Ivanov - web developer - About' }}@endsection
+@section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
+@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.url'){{ url('/about') }}@endsection
+
 @section('content')
 <div id="about" class="container">
     <div class="row">
