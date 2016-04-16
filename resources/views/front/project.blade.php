@@ -1,24 +1,27 @@
 @extends('layouts.app-front')
 
-@section('head.title')
-{{ $project->name }} -
-@endsection
-
-@section('head.meta.keywords')
-trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript,{{ $project->name }}
-@endsection
-
-@section('head.meta.description')
-{{ $project->name }} - Project made by me - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.
-@endsection
+@section('head.title'){{ $project->name }} - @endsection
+@section('head.meta.keywords')trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript,{{ $project->name }}@endsection
+@section('head.meta.description'){{ $project->name }} - Project made by me - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.@endsection
 
 @section('head.og.title'){{ $project->name . ' - Trayan Ivanov - web developer' }}@endsection
 @section('head.og.description'){{ $project->description }}@endsection
 @section('head.og.image'){{ url($project->photos[0]->path) }}@endsection
 @section('head.og.url'){{ url("/project/$project->id") }}@endsection
 
-@section('scripts.header')
-    <link rel="stylesheet" href="/css/libs/blueberry.css">
+@section('scripts.header')<link rel="stylesheet" href="/css/libs/blueberry.css">@endsection
+
+@section('fb.share')
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=158018051261161";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 @endsection
 
 @section('content')
@@ -58,6 +61,7 @@ trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,
 
     <div class="row">
         <div class="col-xs-12">
+            <div class="fb-share-button" data-href="{{ url("/project/$project->id") }}" data-layout="button" data-mobile-iframe="true"></div>
             <br /><br /><a href="{{ url('/projects') }}" class="section-title"> &laquo Back to all projects</a>
         </div>
     </div>

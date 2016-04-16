@@ -33,6 +33,8 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 </head>
 <body id="app-layout">
+    @yield('fb.share')
+
     @include('front.partials.header')
 
     @yield('content')
