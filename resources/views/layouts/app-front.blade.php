@@ -9,8 +9,10 @@
     <meta name="Keywords" content="@yield('head.meta.keywords', 'trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript')" />
     <meta name="Description" content="@yield('head.meta.description', 'Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.')" />
 
-    <meta property="og:title" content="@yield('head.og.title', 'Trayan Ivanov - web developer')" />
-    <meta property="og:description" content="@yield('head.og.description', 'Personal website with portfolio of my work and information about me.')" />
+    <meta property="og:title" content="@yield('head.og.title')" />
+    <meta property="og:description" content="@yield('head.og.description')" />
+    <meta property="og:image" content="@yield('head.og.image')" />
+    <meta property="og:url" content="@yield('head.og.url')" />
 
     <meta name="robots" content="index, follow, all" />
     <meta name="Revisit-After" content="5 days" />

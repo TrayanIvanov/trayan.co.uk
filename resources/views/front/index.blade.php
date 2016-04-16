@@ -1,5 +1,10 @@
 @extends('layouts.app-front')
 
+@section('head.og.title'){{ 'Trayan Ivanov - web developer' }}@endsection
+@section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
+@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.url'){{ url('/') }}@endsection
+
 @section('content')
 <div class="container-fluid header-index">
     <div class="container">

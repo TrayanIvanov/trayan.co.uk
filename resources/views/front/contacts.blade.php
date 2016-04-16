@@ -12,6 +12,11 @@ trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,
 Contact information - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.
 @endsection
 
+@section('head.og.title'){{ 'Trayan Ivanov - web developer - Contacts' }}@endsection
+@section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
+@section('head.og.image'){{ url('logo_dark.jpg') }}@endsection
+@section('head.og.url'){{ url('/contacts') }}@endsection
+
 @section('scripts.header')
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 @endsection
