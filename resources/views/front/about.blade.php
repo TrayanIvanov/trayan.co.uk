@@ -1,16 +1,8 @@
 @extends('layouts.app-front')
 
-@section('head.title')
-About -
-@endsection
-
-@section('head.meta.keywords')
-trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript,about me
-@endsection
-
-@section('head.meta.description')
-About me page - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.
-@endsection
+@section('head.title')About - @endsection
+@section('head.meta.keywords')trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript,about me@endsection
+@section('head.meta.description')About me page - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.@endsection
 
 @section('head.og.title'){{ 'Trayan Ivanov - web developer - About' }}@endsection
 @section('head.og.description'){{ 'Personal website with portfolio of my work and information about me.' }}@endsection
