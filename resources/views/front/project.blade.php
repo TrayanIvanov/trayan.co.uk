@@ -1,8 +1,8 @@
 @extends('layouts.app-front')
 
 @section('head.title'){{ $project->name }} - @endsection
-@section('head.meta.keywords')trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript,{{ $project->name }}@endsection
-@section('head.meta.description'){{ $project->name }} - Project made by me - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.@endsection
+@section('head.meta.keywords'){{ "trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript, $project->name" }}@endsection
+@section('head.meta.description'){{ "$project->name - Project made by me - Trayan Ivanov - web developer - personal website with portfolio of my work and information about me." }}@endsection
 
 @section('head.og.title'){{ $project->name . ' - Trayan Ivanov - web developer' }}@endsection
 @section('head.og.description'){{ $project->description }}@endsection

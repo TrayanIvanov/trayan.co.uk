@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('head.title')Trayan Ivanov - web developer</title>
+    <title>@yield('head.title'){{ 'Trayan Ivanov - web developer' }}</title>
     <meta name="Keywords" content="@yield('head.meta.keywords', 'trayan ivanov,web developer,portfolio,personal website,php,html,html5,css,mysql,javascript')" />
     <meta name="Description" content="@yield('head.meta.description', 'Trayan Ivanov - web developer - personal website with portfolio of my work and information about me.')" />
 
