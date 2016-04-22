@@ -23,9 +23,9 @@
         <div class="col-xs-12">
             <p>
                 My name is Trayan Ivanov and this is my personal web site. Here you can find my portfolio and information about me.<br />
-                I am web developer from Marten, Ruse, Bulgaria.<br />
-                I have skills in web development, PHP, MySQL, HTML, HTML5, CSS3, JavaScript (also jQuery library) and some others.<br />
-                Please enjoy looking in my modest website.<br />
+                I am from small town called Marten near Ruse, Bulgaria.<br />
+                I have skills in web development, PHP, MySQL, HTML, CSS, JavaScript, Git and some others.<br />
+                Hiking, exploring Bulgaria and photograpy (beginner level) are some of my interests.
                 Long live rock and roll!<br />
             </p>
         </div>

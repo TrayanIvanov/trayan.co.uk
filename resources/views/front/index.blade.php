@@ -32,10 +32,9 @@
                 <h3>My modest website</h3>
                 <br />
                 <p>
-                    Hello there! I am Trayan and here you can find some information about me. I am web developer currently located in Sofia, Bulgaria working for <a href="http://www.proxiad.com" target="_blank">Proxiad Bulgaria</a>.<br />
-                    Most of the projects that I have participated or fully developed are included. Exception are the ERP systems that for good reasons I can not show.<br />
-                    The design is made by my friend and ex-colleague Kiril Semkov. Thanks for the efforts mate!<br />
-                    The development is done by me (:
+                    Hello there! I am Trayan and here you can find some information about me. I am web developer currently located in Sofia, Bulgaria working for <a href="http://www.proxiad.com" target="_blank">Proxiad Bulgaria</a>.<br /><br />
+                    Most of the projects that I have participated or fully developed are included.<br /><br />
+                    Enjoy looking in my modest website.<br /><br />
                 </p>
             </article>
         </div>
