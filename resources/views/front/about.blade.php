@@ -25,7 +25,7 @@
                 My name is Trayan Ivanov and this is my personal web site. Here you can find my portfolio and information about me.<br />
                 I am from small town called Marten near Ruse, Bulgaria.<br />
                 I have skills in web development, PHP, MySQL, HTML, CSS, JavaScript, Git and some others.<br />
-                Hiking, exploring Bulgaria and photograpy (beginner level) are some of my interests.
+                Hiking, exploring Bulgaria and photograpy (beginner level) are some of my interests.<br />
                 Long live rock and roll!<br />
             </p>
         </div>
